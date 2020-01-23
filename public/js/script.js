@@ -27,7 +27,7 @@ btn.addEventListener("click",(e)=>{
     const p = document.createElement("p")
     p.textContent = "Loading ..."
     btn.appendChild(p)
-    fetch(`http://localhost:3000/whether?adress=${adress.value}`).then((response)=>{
+    fetch(`/whether?adress=${adress.value}`).then((response)=>{
 
         response.json().then((data)=>{
               if(!data.err){
