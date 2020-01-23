@@ -1,4 +1,3 @@
-console.log("app.js is runnimg !")
 
 const el = document.getElementById("toAnimate")
 setInterval(() => {
